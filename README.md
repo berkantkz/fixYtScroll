@@ -5,7 +5,7 @@ A Tampermonkey script that improves the YouTube viewing experience by adding scr
 ## Installation
 
 1. Install [Tampermonkey from Chrome Web Store ](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-2. Open [fixYtScroll.user.js]()
+2. Open [fixYtScroll.user.js](https://github.com/berkantkz/fixYtScroll/raw/refs/heads/main/fixYtScroll.user.js)
 3. Click install
 
 ## Demo

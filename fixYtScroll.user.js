@@ -1,4 +1,18 @@
-//? Removes the infinite scroll from the YouTube recommendations and comments sections.
+// ==UserScript==
+// @name         YT un-Infinite Scroll
+// @namespace    https://github.com/wazeerc/fixYtScroll
+// @version      v1.0
+// @description  Removes the infinite scroll from the YouTube recommendations and comments sections.
+// @author       wazeerc - berkantkz
+// @match        https://www.youtube.com/watch?v=*
+// @icon         https://raw.githubusercontent.com/berkantkz/fixYtScroll/refs/heads/main/icon.png
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    //? Removes the infinite scroll from the YouTube recommendations and comments sections.
 
 const SELECTORS = {
     recommendationsElement: [
@@ -70,3 +84,4 @@ if (!updateAllSections()) {
 }
 
 window.addEventListener('resize', debounce(updateAllSections, 250));
+})();

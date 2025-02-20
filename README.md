@@ -1,13 +1,12 @@
-# YouTube Scroll Fix Extension
+# YouTube Scroll Fix Script for Tampermonkey
 
-A Chrome extension that improves the YouTube viewing experience by adding scrollable containers for recommendations and comments sections, eliminating the need for infinite scroll.
+A Tampermonkey script that improves the YouTube viewing experience by adding scrollable containers for recommendations and comments sections, eliminating the need for infinite scroll.
 
 ## Installation
 
-1. Download or clone this repository
-2. Open Chrome and navigate to `chrome://extensions/`
-3. Enable "Developer mode" in the top right corner
-4. Click "Load unpacked" and select the extension directory
+1. Install [Tampermonkey from Chrome Web Store ](https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+2. Open [fixYtScroll.user.js]()
+3. Click install
 
 ## Demo
 
@@ -17,6 +16,6 @@ A Chrome extension that improves the YouTube viewing experience by adding scroll
 
 Feel free to submit issues and pull requests for improvements 😊
 
-## References
+## Notes
 
-https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world
+This is adopted version of [YtScrollFix](https://github.com/wazeerc/fixYtScroll) extension made by [wazeerc](https://github.com/wazeerc) to Tampermonkey. The reason I adopted this for Tampermonkey is that I do like using extensions but I do not like to install them all seperately. Tampermonkey does all the job itself for me.
